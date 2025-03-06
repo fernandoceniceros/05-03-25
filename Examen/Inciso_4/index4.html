@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contenido Diverso Incrustado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            margin: 20px;
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .iframe-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            gap: 20px;
+        }
+
+        iframe {
+            width: 80%;
+            height: 500px;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Contenido Diverso Incrustado</h1>
+
+    <div class="iframe-container">
+        <!-- Video de Vimeo (dominio público o Creative Commons) -->
+        <iframe src="https://player.vimeo.com/video/76979871" 
+                title="Video - Vimeo" style="height:400px;"></iframe>
+        
+        <!-- Audio libre de derechos (Freesound.org) -->
+        <iframe src="https://freesound.org/people/qubodup/sounds/238117/embed/" 
+                title="Audio libre - Freesound" style="height:100px;"></iframe>
+
+        <!-- PDF libre de derechos (Proyecto Gutenberg) -->
+        <iframe src="https://www.gutenberg.org/files/1342/1342-h/1342-h.htm" 
+                title="PDF - Proyecto Gutenberg" style="height:600px;"></iframe>
+
+        <!-- Imagen libre de derechos (Pixabay) -->
+        <iframe src="https://www.pexels.com/photo/landscape-photography-of-green-trees-1054210/embed/" 
+                title="Imagen - Pexels" style="height:400px;"></iframe>
+
+        <!-- Mapa de Google Maps (ubicación pública) -->
+        <iframe src="https://www.google.com/maps/embed?pb=!4v1678031180989!6m8!1m7!1s0x869bc95bf454086b%3A0xeaf98ae46d6a5638!2m2!1d-104.6738671!2d24.0200333!3m2!1i1024!2i768!4f13.1!4m2!3d24.0220008!4d-104.6767767" 
+                title="Ubicación - Google Maps" style="height:400px;"></iframe>
+
+        <!-- Página web (Wikipedia) -->
+        <iframe src="https://www.wikipedia.org" 
+                title="Página Web - Wikipedia" style="height:600px;"></iframe>
+
+        <!-- Archivo de Excel libre de derechos (Google Sheets público) -->
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQYO1NCAWSwIgGzxe1jTxk9RQHWZ-qKOnOGGIkPEb8iOZIlwQLZwpVvBsmcB7wbWXLb1xjTPkrHXnXU/pubhtml?gid=0&single=true" 
+                title="Archivo de Excel - Google Sheets" style="height:600px;"></iframe>
+
+        <!-- Reproductor de video libre de derechos (Pexels) -->
+        <iframe src="https://www.pexels.com/video/forest-trees-and-waters-in-a-lake-8547054/embed/" 
+                title="Video libre - Pexels" style="height:400px;"></iframe>
+
+    </div>
+
+</body>
+</html>

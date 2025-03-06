@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música con Teclado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player-container">
+        <!-- Título del reproductor -->
+        <h1>Reproductor de Música</h1>
+
+        <!-- Reproductor de audio -->
+        <audio id="audioPlayer" controls>
+            <source id="audioSource" src="cancion1.mp3" type="audio/mp3">
+            Tu navegador no soporta el reproductor de audio.
+        </audio>
+
+        <!-- Instrucciones para las teclas -->
+        <div class="instructions">
+            <p><strong>Instrucciones:</strong></p>
+            <ul>
+                <li><strong>A</strong>: Anterior canción</li>
+                <li><strong>S</strong>: Pausar/Reanudar canción</li>
+                <li><strong>D</strong>: Siguiente canción</li>
+            </ul>
+        </div>
+
+        <!-- Contenedor de las imágenes -->
+        <div class="image-container">
+            <img src="imagen1.jpg" class="image-slide" id="currentImage" alt="Imagen de transición">
+        </div>
+    </div>
+
+    <!-- Script para el comportamiento -->
+    <script src="script.js"></script>
+</body>
+</html>

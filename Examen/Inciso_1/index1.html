@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Música con Transición de Imágenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player-container">
+        <!-- Título del reproductor -->
+        <h1>Reproductor de Música</h1>
+
+        <!-- Reproductor de audio -->
+        <audio id="audioPlayer" controls>
+            <source id="audioSource" src="cancion1.mp3" type="audio/mp3">
+            Tu navegador no soporta el reproductor de audio.
+        </audio>
+
+        <!-- Botones para cambiar canciones -->
+        <div class="controls">
+            <button id="prevButton">Anterior</button>
+            <button id="nextButton">Siguiente</button>
+        </div>
+
+        <!-- Contenedor de las imágenes -->
+        <div class="image-container">
+            <img src="imagen1.jpg" class="image-slide" id="currentImage" alt="Imagen de transición">
+        </div>
+    </div>
+
+    <!-- Script para el comportamiento -->
+    <script src="script.js"></script>
+</body>
+</html>
